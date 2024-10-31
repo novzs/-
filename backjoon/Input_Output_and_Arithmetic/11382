@@ -1,2 +1,13 @@
+#정답 코드
 a = list(map(int, input().split()))
 print(sum(a))
+
+# 오답 코드
+a, b, c = map(int, input().split())
+print(a + b + c)
+
+
+"""
+세 개의 값이 입력될 경우 정상 작동하지만, 입력 개수가 세 개가 아니면 런타임 에러가 발생
+입력 개수 조건이 맞지 않으면 ValueError가 발생하여 런타임 에러의 원인이 됨
+"""
